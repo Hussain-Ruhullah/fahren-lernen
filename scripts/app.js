@@ -17,17 +17,16 @@ document.addEventListener("keyup", function (event) {
 	let videoPlay = document.getElementsByClassName("icon icon-IconPlayVideo");
 	let goToTask = document.getElementsByClassName("icon-IconGoToTask");
 	
-	console.log('%capp.js line:33 event.code', 'color: #007acc;', event.code);
-
 	let playAudio = (startTime + 500) < (new Date().getTime()) ? true : false;
+	startTime = 0;
 
+	// I just don't like switch cases :)
 
 	if (['Numpad0'].includes(event.code)) {
 		textAnswers[0].click()
 	};
 
 	if (event.code === 'Numpad1') {
-		console.log('%capp.js line:29 videoPlay', 'color: #007acc;', videoPlay);
 		if (videoPlay.length>0) {
 			videoPlay[0].click();
 		}else{
@@ -78,5 +77,4 @@ document.addEventListener("keyup", function (event) {
 	if (['Numpad8', 'ArrowUp', 'NumpadAdd'].includes(event.code)) {
 		btnTools[2].click();
 	};
-	startTime = 0;
 });
