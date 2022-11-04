@@ -1,0 +1,18 @@
+{
+	"manifest_version": 3,
+	"name": "Fahren-Lernen.de",
+	"description": "chrome extension for keyboard navigation for Fahre-Lernen.de by Hussain Ruhullah",
+	"version": "0.0.1",
+	"action": {
+		"default_popup": "index.html",
+		"default_icon": "myIcon.png"
+	},
+	"content_scripts": [
+		{
+			"js": ["scripts/app.js"],
+			"matches": [
+				"https://html.fahren-lernen.de/*"
+			]
+		}
+	]
+}
