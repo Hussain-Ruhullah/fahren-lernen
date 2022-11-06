@@ -10,7 +10,7 @@ I'm just kidding with the proverb above ;)
 
 As a result, instead of clicking through the driving lessons, I decided to create a Chrome plugin that enables easy keyboard navigation on https://html.fahren-lernen.de. By using this plugin, you will be able to learn more quickly and easily.
 
-Download the fahren-lernen extension in google store 
-https://chrome.google.com/webstore/category/extensions
+Download the fahren-lernen extension in google store:
+[]https://chrome.google.com/webstore/detail/fahren-lernen/oiodoejliokfaikjnkcnjjgikkemddce?hl=en&authuser=0
 
 I wish you good luck!
